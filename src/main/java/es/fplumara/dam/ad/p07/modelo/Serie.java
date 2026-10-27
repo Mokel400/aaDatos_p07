@@ -1,12 +1,29 @@
 package es.fplumara.dam.ad.p07.modelo;
 
+import jakarta.xml.bind.annotation.XmlAccessType;
+import jakarta.xml.bind.annotation.XmlAccessorType;
+import jakarta.xml.bind.annotation.XmlAttribute;
+import jakarta.xml.bind.annotation.XmlElement;
+
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Serie {
 
+    @XmlAttribute
     private String id;
+
+    @XmlElement
     private String titulo;
+
+    @XmlElement
     private String genero;
+
+    @XmlElement
     private int anio;
+
+    @XmlElement
     private int temporadas;
+
+    @XmlElement
     private double valoracion;
 
     //JAXB necesita un constructor vacio

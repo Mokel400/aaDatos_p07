@@ -78,7 +78,7 @@ public class CatalogoDom {
         transformador.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
         transformador.setOutputProperty(OutputKeys.INDENT, "yes");
         transformador.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "2");
-        transformador.transform(new DOMsource(documento), new StreamResult(new File(ruta)));
+        transformador.transform(new DOMSource(documento), new StreamResult(new File(ruta)));
     }
 
     //Paso 3
