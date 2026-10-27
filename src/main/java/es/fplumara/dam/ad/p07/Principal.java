@@ -75,5 +75,12 @@ public class Principal {
         for (Serie serie : seriesClasicas){
             System.out.println(serie);
         }
+
+        //Reto Verde
+        System.out.println("");
+        System.out.println("Reto Verde");
+        Verde verde = new Verde();
+        
+
     }
 }

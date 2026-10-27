@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogo plataforma="Órbita Play">
+    <serie id="S03">
+        <titulo>Pisos Compartidos</titulo>
+        <genero>Comedia</genero>
+        <anio>2021</anio>
+        <temporadas>2</temporadas>
+        <valoracion>7.4</valoracion>
+    </serie>
+    <serie id="S10">
+        <titulo>Primer Año</titulo>
+        <genero>Comedia</genero>
+        <anio>2023</anio>
+        <temporadas>2</temporadas>
+        <valoracion>7.1</valoracion>
+    </serie>
+    <serie id="S16">
+        <titulo>Vecinos en Directo</titulo>
+        <genero>Comedia</genero>
+        <anio>2019</anio>
+        <temporadas>4</temporadas>
+        <valoracion>6.8</valoracion>
+    </serie>
+    <serie id="S20">
+        <titulo>Bajo Cero FC</titulo>
+        <genero>Comedia</genero>
+        <anio>2025</anio>
+        <temporadas>1</temporadas>
+        <valoracion>7.5</valoracion>
+    </serie>
+</catalogo>
